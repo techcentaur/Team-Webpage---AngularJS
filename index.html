@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Reps</title>
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<!-- bootstrap link -->
+	<link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+
+<body ng-app="ngReps"  ng-controller="controller">
+
+<!--<a href="http://bsw.iitd.ac.in/"><div class="logo"><img src="images/bswlogo.jpg" width="50px" height="50px" ></div></a>-->
+<div class="main-head" >BSW-IITDelhi</div>
+<div class="tagline-head">Board For Student Welfare-IIT Delhi-Team</div>
+
+<!-- Search-->
+<div class="search"><input type="text" name="search" placeholder="Search Here" ng-model="searchBox"></div>
+
+<div class="short-head">Secretaries</div>
+
+
+<!-- body items secys -->
+<div class="body-items2" ng-repeat="secy in secys | filter:searchBox">
+	<div class="rep-block">
+			<div class="hostel-name">{{secy.post}}</div>
+			<img class="rep-image" ng-src="images/{{secy.image}}">
+			<div class="rep-name">{{secy.name}}</div>
+			<div class="rep-contact">{{secy.contactno}}</div>
+	</div>
+</div>
+<br>
+<div class="short-head">Representatives</div>
+<!-- body items reps -->
+<div class="body-items" ng-repeat="rep in reps | filter:searchBox">
+	<div class="rep-block2">
+		<div class="hostel-name">{{rep.hostel}}</div>
+		<div ng-click ="showContact = !showContact"><img class="rep-image" ng-src="images/{{rep.image}}"></div>
+		<div class="rep-name">{{rep.name}}</div>
+		<div ng-show="showContact===true">
+		<div class="rep-contact">{{rep.contactno}}</div></div>
+	</div>
+</div>
+<footer class="footer">
+	<a href="http://iitd.ac.in/">IIT-Delhi Website</a>
+	<br>
+	<a href="http://bsw.iitd.ac.in/">BSW-IITDelhi</a>
+</footer>
+
+</body>
+
+<!-- angular and bootstrap online scripts(javascript) -->
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap.min.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-bootstrap/2.5.0/ui-bootstrap-tpls.min.js"></script>
+
+<!-- application modules -->
+<script src="app.js"></script>
+
+<!-- controllers -Business logic -->
+<script src="scripts/controller.js"></script>
+<script src="scripts/factory.js"></script>
+
+</html>

@@ -1,0 +1,159 @@
+[
+{
+	"name":"Ankit Solanki",
+	"hostel":"Satpura",
+	"contactno":8826005273,
+	"image":"ankit.jpg"
+},
+{
+	"name":"Abhinav Kalra",
+	"hostel":"Satpura",
+	"contactno":9910114773,
+	"image":"abhinav.jpg"
+},
+{
+	"name":"Raghav Mishra",
+	"hostel":"Aravali",
+	"contactno":8826072701,
+	"image":"raghav.jpg"
+},
+{
+	"name":"Sajal Gupta",
+	"hostel":"Aravali",
+	"contactno":9953836099,
+	"image":"default.png"
+}
+,
+{
+	"name":"Shashank Goel",
+	"hostel":"Girnar",
+	"contactno":7840048450,
+	"image":"default.png"
+},
+{
+	"name":"Nishant Kakkar",
+	"hostel":"Girnar",
+	"contactno":9314733783,
+	"image":"default.png"
+},
+{
+	"name":"Nishtha Gupta",
+	"hostel":"Himadri",
+	"contactno":9958230079,
+	"image":"default.png"
+},
+{
+	"name":"Aditi Gupta",
+	"hostel":"Himadri",
+	"contactno":8826093285,
+	"image":"default.png"
+},
+{
+	"name":"Akash Goyal",
+	"hostel":"Jwalamukhi",
+	"contactno":8860905760,
+	"image":"default.png"
+},
+{
+	"name":"Prafful Goyal",
+	"hostel":"Jwalamukhi",
+	"contactno":7454821360,
+	"image":"default.png"
+},
+{
+	"name":"Aashi Agarwal",
+	"hostel":"Kailash",
+	"contactno":9690107820,
+	"image":"default.png"
+},
+{
+	"name":"Neharika Singhal",
+	"hostel":"Kailash",
+	"contactno":9611519628,
+	"image":"default.png"
+},
+{
+	"name":"Ishaan gupta",
+	"hostel":"Karakoram",
+	"contactno":9999566311,
+	"image":"default.png"
+},
+{
+	"name":"Akarsh Shrivastava",
+	"hostel":"Karakoram",
+	"contactno":8718804676,
+	"image":"default.png"
+},
+{
+	"name":"Virok Sharma" ,
+	"hostel":"Kumaon",
+	"contactno":9646111128,
+	"image":"default.png"
+},
+{
+	"name":"Pranav Patel",
+	"hostel":"Kumaon",
+	"contactno":8826084243,
+	"image":"default.png"
+},
+{
+	"name":"Shashwat Jain",
+	"hostel":"Nilgiri",
+	"contactno":9871700992,
+	"image":"default.png"
+},
+{
+	"name":"Devanshu Agarwal",
+	"hostel":"Nilgiri",
+	"contactno":8058253714,
+	"image":"default.png"
+},
+{
+	"name":"Nilesh Kumar",
+	"hostel":"Shivalik",
+	"contactno":9971494645,
+	"image":"default.png"
+},
+{
+	"name":"Aajeya Jajoo",
+	"hostel":"Shivalik",
+	"contactno":9167082401,
+	"image":"default.png"
+},
+{
+	"name":"Raj Agarwal",
+	"hostel":"Udaigiri",
+	"contactno":9953653002,
+	"image":"default.png"
+},
+{
+	"name":"Tushar Chaudhary",
+	"hostel":"Udaigiri",
+	"contactno":8826366484,
+	"image":"default.png"
+},
+{
+	"name":"Prateek Goyal",
+	"hostel":"Vindhyachal",
+	"contactno":9711147706,
+	"image":"default.png"
+},
+{
+	"name":"Yogendra Singh",
+	"hostel":"Vindhyachal",
+	"contactno":9711155131,
+	"image":"default.png"
+},
+{
+	"name":"Deepak Chaurasia",
+	"hostel":"Zanskar",
+	"contactno":9891049811,
+	"image":"default.png"
+},
+{
+	"name":"Nishant Verma",
+	"hostel":"Zanskar",
+	"contactno":7551173791,
+	"image":"default.png"
+}
+]

@@ -1,0 +1,21 @@
+[	
+	{
+		"name":"Ankit Soni",
+		"contactno":9654784979,
+		"image": "ankitsoni.jpg",
+		"post": "Public-Relation"
+	},
+	{
+		"name":"Divyam Gupta",
+		"contactno":8588819895,
+		"image":"divyam.jpg",
+		"post":"General Secy"
+	},
+
+	{
+		"name":"Sophiya Khan",
+		"contactno":9560942245,
+		"image": "sophiya.jpg",
+		"post": "Financial Secy"
+	}
+]
